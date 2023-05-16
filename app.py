@@ -9,7 +9,7 @@ def home():
 def test_post():
    title_receive = request.form['title_give']
    print(title_receive)
-   return jsonify({'result':'success', 'msg': '이 요청은 POST!'})
+   return jsonify({'result':'success', 'msg': '이 요청은 POST'})
 
 
 if __name__ == '__main__':  
